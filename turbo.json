@@ -1,0 +1,21 @@
+{
+    "$schema": "https://turbo.build/schema.json",
+    "ui": "tui",
+    "tasks": {
+        "dev": {
+            "dependsOn": [
+                "dev:symfony",
+                "dev:nuxt"
+            ],
+            "outputs": []
+        },
+        "dev:symfony": {
+            "cache": false,
+            "outputs": []
+        },
+        "dev:nuxt": {
+            "cache": false,
+            "outputs": []
+        }
+    }
+}
