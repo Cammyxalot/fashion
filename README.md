@@ -45,6 +45,8 @@ L'objectif de ce projet est de développer une plateforme permettant aux utilisa
   - Stocker les informations des produits dans une base de données locale (nom du produit, prix, image, URL d'achat).
   - Conformité avec les politiques de scraping et respect des règles d’utilisation des plateformes.
 
+![scraping](./img/scraping.svg)
+
 #### Feature 4 : **Recherche de produits de marques par images**
 
 - **Description** : Permettre aux utilisateurs de rechercher des vêtements en téléchargeant des images de produits. L'algorithme identifiera les articles similaires ou identiques à travers la base de données de marques de designers.
@@ -55,6 +57,8 @@ L'objectif de ce projet est de développer une plateforme permettant aux utilisa
   - Utilisation d’un algorithme de reconnaissance d'image (par exemple, TensorFlow ou Google Vision API).
   - Mise en place d’une interface permettant le téléchargement d'images et l’affichage des résultats correspondants.
   - Comparer les résultats d'images avec les produits disponibles via le scraping (Feature 3).
+
+![search-product](./img/search-product.svg)
 
 ---
 
@@ -67,6 +71,8 @@ L'objectif de ce projet est de développer une plateforme permettant aux utilisa
 - **Scraping** : Scrapy ou BeautifulSoup pour récupérer les données des plateformes externes.
 - **Recherche d'image** : Intégration d'une API de reconnaissance d'image (Google Vision API ou un modèle TensorFlow formé sur des images de vêtements).
 
+![shema-app](./img/project-shema.svg)
+
 #### b. **Front-end :**
 
 - Interface utilisateur ergonomique et fluide permettant la navigation entre les marques, les résultats de recherche et les suggestions visuelles.
@@ -77,6 +83,8 @@ L'objectif de ce projet est de développer une plateforme permettant aux utilisa
 - Mettre en place une architecture modulable permettant l’ajout de nouvelles sources de scraping ou de nouveaux algorithmes de recommandation.
 - S'assurer que les fonctionnalités de scraping et de recherche d'images sont bien optimisées pour gérer un grand volume de données.
 
+![archi-shema](./img/archi-shema.svg)
+
 ---
 
 ### 4. **Sécurité et Conformité**
@@ -84,6 +92,7 @@ L'objectif de ce projet est de développer une plateforme permettant aux utilisa
 - **Sécurité des données utilisateurs** : Protection des informations personnelles et conformité avec les réglementations sur la confidentialité (RGPD).
 - **Conformité avec les politiques des sites scrappés** : Vérifier les termes et conditions des sites comme Vestiaire Collective pour s’assurer que l'usage du scraping respecte leurs directives.
 
+![security](./img/security.svg)
 ---
 
 ### Conclusion :
